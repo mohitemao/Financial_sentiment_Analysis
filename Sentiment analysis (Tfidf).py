@@ -70,8 +70,8 @@ def Text_Processing(Text):
             Processed_Text.append(Lemmatizer.lemmatize(word))
     return(" ".join(Processed_Text))
 
-tfidf = pickle.load(open("C:/Users/hp/Desktop/project sentiment analysis/tf_idf_model.pkl",'rb'))
-model = pickle.load(open('C:/Users/hp/Desktop/project sentiment analysis/SVM_Tfidf_Clf.pkl','rb'))
+tfidf = pickle.load(open("https://github.com/mohitemao/Financial_sentiment_Analysis/blob/main/tf_idf_model.pkl",'rb'))
+model = pickle.load(open('https://github.com/mohitemao/Financial_sentiment_Analysis/blob/main/SVM_Tfidf_Clf.pkl','rb'))
 
 st.title("Financil Sentiment Analysis")
 text_input = st.text_area("please Enter Sentence")
