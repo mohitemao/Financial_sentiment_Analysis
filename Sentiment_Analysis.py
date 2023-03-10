@@ -77,7 +77,7 @@ def Text_Processing(Text):
 tfidf = pickle.load(open("tf_idf_model.pkl",'rb'))
 model = pickle.load(open('SVM_Tfidf_Clf.pkl','rb'))
 
-st.title("Financil Sentiment Analysis")
+st.title("Financial Sentiment Analysis")
 text_input = st.text_area("please Enter Sentence")
 
 if st.button('Analyze'):
