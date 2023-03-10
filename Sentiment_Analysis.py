@@ -10,6 +10,7 @@ import string
 import nltk
 from nltk.corpus import stopwords
 nltk.download('stopwords')
+nltk.download('punkt')
 import streamlit as st
 from nltk.stem import WordNetLemmatizer
 
