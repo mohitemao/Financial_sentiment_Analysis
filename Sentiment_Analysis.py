@@ -8,6 +8,7 @@ import re
 import string
 
 import nltk
+from nltk.corpus import stopwords
 import streamlit as st
 from nltk.stem import WordNetLemmatizer
 
