@@ -11,6 +11,7 @@ import nltk
 from nltk.corpus import stopwords
 nltk.download('stopwords')
 nltk.download('punkt')
+nltk.download('wordnet')
 import streamlit as st
 from nltk.stem import WordNetLemmatizer
 
